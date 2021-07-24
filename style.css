@@ -1,0 +1,103 @@
+body{ 
+    font-family: 'Montserrat', sans-serif;
+}
+.container { 
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__buttons { 
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 14px;
+}
+.header__button--active { 
+    border: none;
+    border-radius: 25px;
+    background-color: #7e28c6;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    font-weight: 500;
+}
+.header__button--deactive { 
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    color: gray;
+    padding: 10px;
+    font-weight: 500;
+}
+/* header */
+
+/* main */
+.main { 
+    display: flex;
+    justify-content: space-between;
+}
+.card { 
+    width: 280px;
+    padding: 15px;
+}
+.card__price { 
+    font-size: 24px;
+    font-weight: bold;
+}
+.card:hover { 
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border:1px solid #e3e5ee;
+}
+.card__popular { 
+   background: #7e28c6; 
+   width: 280px;
+   padding: 15px;
+   color: #fff;
+   border-radius: 5px;
+}
+.card__popular--price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card__popular button { 
+    color: #7e28c6;
+    background-color: #fbc8c6;
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border:none;
+}
+
+
+.card__points p {
+    display: flex;
+    align-items: center;
+}
+.card__points p span { 
+    padding: 0 10px;
+}
+.card button { 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7e28c6;
+    color : #7e28c6;
+    background-color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.card button:hover { 
+    color : #fff;
+    background-color: #7e28c6;
+    cursor: pointer;
+}
+/* main */
